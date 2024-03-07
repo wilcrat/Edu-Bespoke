@@ -14,8 +14,8 @@ body {
 }
 
 :root {
-  --greentext-color: #248746;
-  --buttons-color: #27ae60;
+  --purpletext-color: #4300B1;
+  --buttons-color: #4300B1;
   --main-txt-color: rgb(233, 85, 0);
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 a {
-  color: var(--greentext-color);
+  color: var(--purpletext-color);
 }
 input[type="email"],
 input[type="password"],
