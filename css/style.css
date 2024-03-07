@@ -1,0 +1,51 @@
+body {
+  scroll-behavior: smooth;
+  background-color: white;
+
+}
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  font-family: "Raleway", "Lato";
+}
+
+:root {
+  --greentext-color: #248746;
+  --buttons-color: #27ae60;
+  --main-txt-color: rgb(233, 85, 0);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap");
+
+#edubespoke{
+  background: -webkit-linear-gradient(#A531DC, #4300B1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  color: var(--greentext-color);
+}
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="submit"] {
+  width: 365px;
+  height: 40px;
+  margin-top: 5px;
+  border: 1px solid rgb(58, 58, 58);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: var(--buttons-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
