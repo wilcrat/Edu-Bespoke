@@ -1,0 +1,19 @@
+#chat-container {
+  width: 40vw;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+}
+
+#info-text {
+  background-color: #f5f5f5d8;
+  border-radius: 10px;
+  width: 80vw;
+  text-align: center;
+  height: auto;
+  padding: 10px;
+  font-size: 13px;
+  margin-top: 10px;
+}

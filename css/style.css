@@ -1,7 +1,6 @@
 body {
   scroll-behavior: smooth;
   background-color: white;
-
 }
 * {
   box-sizing: border-box;
@@ -14,17 +13,18 @@ body {
 }
 
 :root {
-  --purpletext-color: #4300B1;
-  --buttons-color: #4300B1;
+  --purpletext-color: #4300b1;
+  --buttons-color: #4300b1;
   --main-txt-color: rgb(233, 85, 0);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap");
 
-#edubespoke{
-  background: -webkit-linear-gradient(#A531DC, #4300B1);
+#edubespoke {
+  background: -webkit-linear-gradient(#a531dc, #4300b1);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -50,7 +50,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-button{
+button {
   width: 300px;
   height: 40px;
   border-radius: 5px;
@@ -61,17 +61,6 @@ button{
   cursor: pointer;
 }
 
-#showpwd{
+#showpwd {
   font-size: 15px;
-}
-
-#home-container{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 80vh;
-  gap: 20px;
 }
