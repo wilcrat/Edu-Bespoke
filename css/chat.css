@@ -17,3 +17,34 @@
   font-size: 13px;
   margin-top: 10px;
 }
+
+#upload {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  justify-content: space-between;
+  max-width: auto;
+}
+
+#upload-buttons {
+  display: flex;
+  background-color: #a531dc;
+  overflow: hidden;
+}
+
+#upload-buttons span {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  padding-right: 5px;
+}
+
+#submit-docs {
+  border-radius: 100%;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
