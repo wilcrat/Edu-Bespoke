@@ -24,6 +24,8 @@
   justify-content: space-around;
   align-items: space-around;
   justify-content: space-between;
+  column-gap: 10px;
+  row-gap: 10px;
   max-width: auto;
 }
 
