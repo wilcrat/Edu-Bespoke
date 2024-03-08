@@ -11,6 +11,9 @@ body {
   margin: auto;
   font-family: "Raleway", "Lato";
 }
+a {
+  color: white;
+}
 
 :root {
   --purpletext-color: #4300b1;
@@ -28,8 +31,9 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-a {
-  color: var(--purpletext-color);
+a,
+button a {
+  color: white;
 }
 input[type="email"],
 input[type="password"],
