@@ -20,6 +20,8 @@
 
 #upload {
   display: flex;
+  flex-direction: row;
+  height: auto;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: space-around;
@@ -49,4 +51,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#prompt-div {
+  display: flex;
+  width: 90vw;
+}
+
+input[type="text"] {
+  width: 90%;
 }
